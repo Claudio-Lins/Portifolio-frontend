@@ -47,5 +47,6 @@ export const getStaticProps = async () => {
       projects,
       footer
     },
+    revalidate: 1
   }
 }
